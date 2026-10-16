@@ -25,7 +25,7 @@ export default function Hero() {
           <div className="frame-glow" aria-hidden="true" />
           <div className="frame-line" aria-hidden="true" />
           <div className="photo">
-            <SmartImage src="/images/profile.jpg" alt="Portrait of Husan Maxmarajapov" label="/images/profile.jpg" eager />
+            <SmartImage src="https://drive.google.com/thumbnail?id=1-bNMc_f9LKfYoJLlfAhS7Tdh4QI0m2Mu&sz=w1200" alt="Portrait of Husan Maxmarajapov" label="/images/profile.jpg" eager />
           </div>
           <span className="chip c1" aria-hidden="true">{'</>'}</span>
           <span className="chip c2" aria-hidden="true">React · TypeScript</span>

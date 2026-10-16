@@ -7,7 +7,7 @@ export default function About() {
     <section id="about" className="sec wrap about">
       <Reveal>
         <div className="tile" data-cursor>
-          <SmartImage src="/images/profile.jpg" alt="Husan Maxmarajapov" label="secondary image" style={{ objectPosition: '50% 20%' }} />
+          <SmartImage src="https://drive.google.com/thumbnail?id=1-bNMc_f9LKfYoJLlfAhS7Tdh4QI0m2Mu&sz=w1200" alt="Husan Maxmarajapov" label="secondary image" style={{ objectPosition: '50% 20%' }} />
           <span className="tag">Tashkent · UZ</span>
         </div>
       </Reveal>
