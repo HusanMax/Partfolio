@@ -10,4 +10,6 @@ export interface Project {
   liveUrl: string
   category: Category
   featured: boolean
+  // Optional card layout override (1-6); defaults to a repeating pattern based on id.
+  layout?: 1 | 2 | 3 | 4 | 5 | 6
 }

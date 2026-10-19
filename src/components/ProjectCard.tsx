@@ -4,7 +4,7 @@ import { useI18n } from '../i18n/LanguageContext'
 const ext = (u: string) => (u === '#' ? {} : { target: '_blank', rel: 'noopener noreferrer' })
 export default function ProjectCard({ project: p, index = 0, onOpen }: { project: Project; index?: number; onOpen: () => void }) {
   const { t, lang } = useI18n()
-  const v = ((p.id - 1) % 6) + 1 // each slot has its own layout
+  const v = p.layout ?? ((p.id - 1) % 6) + 1 // each slot has its own layout
   const n = String(p.id).padStart(2, '0')
   const title = p.title[lang]
   return (
